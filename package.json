@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-oauth1a",
+  "version": "1.0.0",
+  "description": "OAuth 1.0A on Node-Red",
+  "author": "Aldian Fazrihady",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldian/node-red-contrib-oauth1a.git"
+  },
+  "dependencies": {
+    "oauth-signature": "^1.5.0",
+    "uuid": "^7.0.2",
+    "axios": "^0.19.0"
+  },
+  "keywords": ["node-red", "oauth"],
+  "node-red": {
+    "nodes": {
+      "oauth1a": "oauth1a.js"
+    }
+  }
+}
